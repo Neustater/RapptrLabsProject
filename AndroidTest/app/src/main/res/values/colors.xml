@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0E5C89</color>
+    <color name="colorPrimaryDark">#0B496D</color>
+    <color name="colorAccent">#000000</color>
+    <color name="background">#F9F9F9</color>
+    <color name="loginbox">#32F9F9F9</color>
+    <color name="hint_field">#5F6063</color>
+    <color name="input_field">#1B1E1F</color>
+    <color name="line">#7B7B7E</color>
+    <color name="button_blue">#0E5C89</color>
+    <color name="chat_text">#1B1E1F</color>
+</resources>

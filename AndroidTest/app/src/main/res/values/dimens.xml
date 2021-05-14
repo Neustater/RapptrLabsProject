@@ -1,0 +1,38 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">30dp</dimen>
+    <dimen name="activity_vertical_margin">30dp</dimen>
+    <dimen name="activity_button_height">55dp</dimen>
+    <dimen name="activity_main_top_margin">214dp</dimen>
+
+    <dimen name="activity_main_bottom_margin">213dp</dimen>
+    <dimen name="activity_main_button_offset">30dp</dimen>
+    <dimen name="activity_main_drawable_padding">16dp</dimen>
+    <dimen name="activity_main_drawable_padding_left">22dp</dimen>
+
+    <dimen name="activity_login_vertical_margin">30dp</dimen>
+    <dimen name="activity_login_text_field_margin">30dp</dimen>
+    <dimen name="activity_login_entries_vertical_offset">16dp</dimen>
+    <dimen name="activity_login_button_left_offset">25dp</dimen>
+    <dimen name="activity_login_button_right_offset">26dp</dimen>
+    <dimen name="activity_login_new_element_offset">24dp</dimen>
+
+    <dimen name="activity_animation_logo_vertical_margin">100dp</dimen>
+    <dimen name="activity_animation_logo_left_margin">23dp</dimen>
+    <dimen name="activity_animation_logo_right_margin">22dp</dimen>
+    <dimen name="activity_animation_button_margin">30dp</dimen>
+
+    <dimen name="shadow_x">0</dimen>
+    <dimen name="shadow_y">2</dimen>
+    <dimen name="shadow_blur">8</dimen>
+
+
+
+    <!-- Text Sizes -->
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="hint_text_size">16sp</dimen>
+    <dimen name="input_text_size">16sp</dimen>
+    <dimen name="chat_text_size">13sp</dimen>
+    <dimen name="chat_name_text_size">15sp</dimen>
+
+</resources>

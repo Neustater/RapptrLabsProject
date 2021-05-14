@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".login.LoginActivity" android:background="@drawable/gpc_sunset">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="231dp"
+            android:layout_marginTop="@dimen/activity_login_entries_vertical_offset"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true" android:layout_marginEnd="0dp" android:layout_alignParentStart="true"
+            android:layout_marginStart="0dp" android:background="@color/loginbox"
+    >
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/userField"
+                android:layout_marginTop="24dp"
+                android:layout_alignParentTop="true" android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/activity_login_text_field_margin"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/activity_login_text_field_margin"
+                android:textSize="@dimen/input_text_size" android:hint="@string/username_field"
+                android:textColorHint="@color/hint_field" android:textColor="@color/input_field"/>
+        <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:id="@+id/passField"
+                android:layout_marginStart="0dp"
+                android:layout_alignStart="@+id/userField" android:layout_marginEnd="0dp"
+                android:layout_alignEnd="@+id/userField"
+                android:layout_marginTop="@dimen/activity_login_entries_vertical_offset"
+                android:layout_below="@+id/userField" android:textSize="@dimen/input_text_size"
+                android:inputType="textPassword"
+                android:hint="@string/password_field" android:textColorHint="@color/hint_field"
+                android:textColor="@color/input_field"
+        />
+        <Button
+                android:text="@string/login_button"
+                android:layout_height="@dimen/activity_button_height" android:id="@+id/loginButton"
+                android:layout_marginTop="@dimen/activity_login_new_element_offset"
+                android:layout_below="@+id/passField"
+                android:layout_marginStart="@dimen/activity_login_button_left_offset"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="@dimen/activity_login_button_right_offset"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="@dimen/activity_login_new_element_offset"
+                android:background="@color/button_blue" android:textColor="@color/background"
+                android:textSize="@dimen/button_text_size"
+                android:layout_width="match_parent" android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                android:onClick="onLogInClicked" android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"/>
+    </RelativeLayout>
+</RelativeLayout>

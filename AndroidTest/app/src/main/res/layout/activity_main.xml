@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:context=".MainActivity" android:background="@drawable/gpc_background"
+>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin" android:gravity="center"
+    >
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_button_height"
+                android:onClick="onChatClicked"
+                android:text="@string/chat_button"
+                android:textSize="@dimen/button_text_size" android:textColor="@color/chat_text"
+                android:layout_marginTop="@dimen/activity_main_top_margin"
+                android:background="@drawable/button_shape"
+                android:drawableLeft="@drawable/ic_chat" android:drawablePadding="@dimen/activity_main_drawable_padding"
+                android:gravity="start|center_vertical" android:paddingLeft="@dimen/activity_main_drawable_padding_left"
+                android:shadowDy="@dimen/shadow_y"
+                android:shadowDx="@dimen/shadow_x" android:shadowRadius="@dimen/shadow_blur"
+                android:fontFamily="sans-serif-medium" android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_button_height"
+                android:onClick="onLoginClicked"
+                android:text="@string/login_button"
+                android:textSize="@dimen/button_text_size" android:textColor="@color/chat_text"
+                android:layout_marginTop="@dimen/activity_main_button_offset"
+                android:background="@drawable/button_shape"
+                android:paddingLeft="@dimen/activity_main_drawable_padding_left"
+                android:drawableLeft="@drawable/ic_lock" android:gravity="start|center_vertical"
+                android:drawablePadding="@dimen/activity_main_drawable_padding" android:shadowDx="@dimen/shadow_x"
+                android:shadowDy="@dimen/shadow_y" android:shadowRadius="@dimen/shadow_blur"
+                android:fontFamily="sans-serif-medium" android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"/>
+
+        <Button
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/activity_button_height"
+                android:onClick="onAnimationClicked"
+                android:text="@string/animation_button"
+                android:textSize="@dimen/button_text_size" android:textColor="@color/chat_text"
+                android:layout_marginTop="@dimen/activity_main_button_offset"
+                android:layout_marginBottom="@dimen/activity_main_bottom_margin"
+                android:background="@drawable/button_shape"
+                android:paddingLeft="@dimen/activity_main_drawable_padding_left"
+                android:drawableLeft="@drawable/ic_animation" android:gravity="start|center_vertical"
+                android:drawablePadding="@dimen/activity_main_drawable_padding"
+                android:shadowRadius="@dimen/shadow_blur"
+                android:shadowDy="@dimen/shadow_y" android:shadowDx="@dimen/shadow_x"
+                android:fontFamily="sans-serif-medium" android:foreground="?android:attr/selectableItemBackground"
+                android:textStyle="bold"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
